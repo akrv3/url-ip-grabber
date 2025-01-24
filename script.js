@@ -15,7 +15,7 @@ document.getElementById('sendInfoBtn').addEventListener('click', function() {
                 "Time": new Date().toLocaleString()  
             };
 
-            const webhookUrl = 'https://discord.com/api/webhooks/1329581061209985065/L2pdhnruehhQwHOLtsdDVZxEyvUDNSQ8vTiq5Le8dEfxijfJFOrgjenWCoeHQcbFNEly';
+            const webhookUrl = 'TON WEBHOOK';
 
             const message = {
                 content: `**System Info (from browser)**\n\`\`\`JSON\n${JSON.stringify(systemInfo, null, 2)}\n\`\`\``
